@@ -1,0 +1,28 @@
+{
+  "name": "studenthub",
+  "version": "1.0.0",
+  "description": "StudentHub - Student Record Management System (Node.js, Express, MongoDB, vanilla JS)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node scripts/seed.js",
+    "index-demo": "node scripts/index-demo.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "student",
+    "crud",
+    "express",
+    "mongodb",
+    "mongoose"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.0"
+  }
+}
